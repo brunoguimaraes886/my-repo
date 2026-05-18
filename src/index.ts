@@ -36,13 +36,13 @@ const PORT = getEnvValue('PORT')  //const PORT: string | undefined
 
 console.log(DATABASE_URL, API_KEY, PORT)
 
-/*const users1 = [
+const users1 = [
     { id: 1, name: 'Bruno', city: 'São Paulo' },
     { id: 2, name: 'Ana', city: 'Rio de Janeiro' },
     { id: 3, name: 'Carlos', city: 'São Paulo' },
     { id: 4, name: 'Julia', city: 'Belo Horizonte' },
     { id: 5, name: 'Marcos', city: 'Rio de Janeiro' }
 ]
-*/
 
-//console.log(groupBy(users1, "city"))
+
+console.log(groupBy(users1, "city"))
