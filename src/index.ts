@@ -16,8 +16,8 @@ function envValue (env: string | undefined): string {
     } else return env
 }*/
 
-//import { activeUsers, above18, sortByName } from './problem1'
-//import { groupBy } from './problem5'
+import { activeUsers, above18, sortByName } from './problem1'
+import { groupBy } from './problem5'
 
 function getEnvValue (env: string): string {
     let value = process.env[env]
